@@ -17,14 +17,20 @@
 	<input type="radio" name="gender" id="gender_m" required>Male
 	<input type="radio" name ="gender" id="gender_f" required>Female <br><br>
    <label for="cars">Car Brands: </label>
-	   <input type ="select" id ="cars" placeholder="Car Brands" required><br><br>
-	<label for="age">Age : </label>
+	 <input type ="select" id ="cars" placeholder="Car Brands" required><br><br>
+	<select id="cars">Car Brands
+        <option value="">BMW</option>
+        <option value="">Ford</option>
+        <option value="">suzuki</option>
+        <option value="">Mahendhra</option>
+        </select>
+		<label for="age">Age : </label>
 		<input type ="number" id ="age" placeholder="Age" required><br><br>
 	<label for="dob">DOB : </label>
 		<input type="date" id="dob" required><br><br>
 	<label for="tel">Phone Number : </label>
 		<input type="tel" id ="tel" placeholder="xxx-xxx-xxx"><br><br>
-	<label for="password">Password : </label>
+	<label for="password" required>Password : </label>
 		<input type="password" id ="password" placeholder="Password"><br><br>
 	<label for="tos">I  agree to the TOS : </label>
 		<input type="checkbox" id="tos" required>
